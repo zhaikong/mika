@@ -14,6 +14,11 @@ Each page starts with a line "--- page N ---". A page with no extractable text i
 stderr; if no page has text, the PDF is probably scanned and the exit code is 3.
 Needs pypdf.
 """
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import json
 import logging
