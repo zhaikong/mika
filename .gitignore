@@ -16,3 +16,5 @@ dist/
 
 # 给 AI 编程助手的本地规则,只留在本机
 CLAUDE.md
+config.bat
+node_modules
